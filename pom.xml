@@ -58,7 +58,7 @@
   </dependencies>
 
   <build>
-
+    <defaultGoal>clean package</defaultGoal>
     <plugins>
 
       <plugin>
@@ -130,7 +130,7 @@
   </build>
 
 
-  <distributionManagement>
+<!--  <distributionManagement>
 
     <repository>
       <id>acadia-nexus3-public</id>
@@ -144,6 +144,6 @@
       <url>${distribution-management.snapshots-url}</url>
     </snapshotRepository>
 
-  </distributionManagement>
+  </distributionManagement>-->
 
 </project>
